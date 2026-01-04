@@ -1,7 +1,7 @@
 :root {
-  --color-1: #0C2B4E;
-  --color-2: #1A3D64;
-  --color-3: #1D546C;
+  --color-1: #005461;
+  --color-2: #018790;
+  --color-3: #00B7B5;
   --color-4: #F4F4F4;
 }
 /* --color-3: #1d546c83; */
@@ -90,7 +90,7 @@ body {
 }
 /* start header */
 .main-header {
-  background: #1d546c83;
+  background: #01293056;
   padding: 15px 0;
   color: white;
   position: fixed;
@@ -281,7 +281,7 @@ body {
 /* القسم */
 .about {
   padding: 100px 8%;
-  background: #050f30;
+  background: var(--color-1); /* خلفية غامقة */
   position: relative;
 }
 
